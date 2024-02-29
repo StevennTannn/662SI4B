@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Element Selector */
+body{
+    background-color: blueviolet;
+}
+
+/* CLass Selector */
+.text-primary{
+    color: #9370d8;
+}
+
+.col{
+    width: 25%;
+    float: left;
+}
+
+.col1{
+    width: 50%;
+    float: left;
+}
+
+.img-responsive{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.p-1{
+    padding: 10px;
+}
