@@ -5,6 +5,36 @@
 /*Element Selector */
 body{
     background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* media query*/
+/* tablet : layout yang ditampilkan 4 kolom */
+@media screen and (min-width: 600px){
+    body{
+        background-color: blue;
+    }
+
+    .col-sm-6{
+        width: 50%;
+        float: left;
+    }
+
+    .col-lg-4{
+    width: 33.33333333%;
+    float: left;
+}
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-color: cornflowerblue;
+    }
+
+    .col{
+        width: 25%;
+        float: left;
+    }
 }
 
 /* CLass Selector */
@@ -12,7 +42,7 @@ body{
     color: #9370d8;
 }
 
-.col{
+.col2{
     width: 25%;
     float: left;
 }
@@ -28,5 +58,25 @@ body{
 }
 
 .p-1{
-    padding: 10px;
+    padding: 25px;
+}
+
+.col-50{
+    width: 50%;
+    float: left;
+}
+
+.col-25{
+    width: 25%;
+    float: right;
+}
+
+.row::after{
+    content: "Pacar Guweh";
+    clear: both;
+    display: table;
+}
+
+.circle2{
+    border-radius: 5%;
 }
