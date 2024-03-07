@@ -20,10 +20,7 @@ body{
         float: left;
     }
 
-    .col-lg-4{
-    width: 33.33333333%;
-    float: left;
-}
+    
 }
 
 @media screen and (min-width: 992px){
@@ -35,6 +32,16 @@ body{
         width: 25%;
         float: left;
     }
+
+    .col-lg-2{
+        width: 50%;
+        float: left;
+    }
+    
+    .col-lg-4{
+    width: 33.33333333%;
+    float: left;
+}
 }
 
 /* CLass Selector */
