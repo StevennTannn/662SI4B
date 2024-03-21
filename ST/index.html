@@ -22,31 +22,62 @@
         </div>
 
     
-    <div class="row mt-5">
+    <div class="row mt-3">
         <div class="col-lg-12">
             <!-- img banner -->
-            <img src="img/banner.jpg" alt="" class="img-fluid" />
+            <!-- Carousel -->
+        <div id="demo" class=" mt-3 carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
         </div>
 
-        <h2 class="mt-3">Upcoming</h2>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="img/banner.jpg" alt="Los Angeles" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+            <img src="img/banner.jpg" alt="Chicago" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+            <img src="img/banner.jpg" alt="New York" class="d-block w-100">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        </div>
+        </div>
+
+        <h2 class="mt-5">Upcoming</h2>
         <div class="row">
-            <div class="col-lg-6">
-                <img src="img/castle.jpg" alt="" class="img-fluid rounded">
+            <div class="col-lg-6 mb-3">
+                <img src="img/lob.jpg" alt="" class="d-block w-100 rounded">
             </div>
 
             <div class="col-lg-6">
                 <div class="row">
                     <div class="col-lg-6 p-1 col-sm-6">
-                    <img src="img/parasite.jpg" alt="" class="img-fluid rounded">
+                    <img src="img/parasite.jpg" alt="" class="d-block w-100 rounded">
                     </div>
                     <div class="col-lg-6 p-1 col-sm-6">
-                        <img src="img/davil.jpg" alt="" class="img-fluid rounded">
+                        <img src="img/davil.jpg" alt="" class="d-block w-100 rounded">
                     </div>
                     <div class="col-lg-6 p-1 col-sm-6">
-                        <img src="img/terimantor.jpg" alt="" class="img-fluid rounded">
+                        <img src="img/terimantor.jpg" alt="" class="d-block w-100 rounded">
                     </div>
                     <div class="col-lg-6 p-1 col-sm-6">
-                        <img src="img/utopia.jpg" alt="" class="img-fluid rounded">
+                        <img src="img/utopia.jpg" alt="" class="d-block w-100 rounded">
                     </div>
                 </div>
             </div>
@@ -85,7 +116,101 @@
                 Feb 08, 2024
             </div>
         </div>
+        <!-- akhir now playing -->
 
+        <!-- awal sign up -->
+        <div class="row">
+            <div class="col-lg-3">
+                <!-- teks benefit -->
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="bg-primary rounded text-white p-2">Benefits of being a member</h2>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Find something to watch on your subscribed streaming services</li>
+                        <li class="list-group-item">Log the movies and TV shows you have watched</li>
+                        <li class="list-group-item">Keep track of your favourite movies and TV shows and get recommendations from them</li>
+                        <li class="list-group-item">Build and maintain a personal watchlist</li>
+                        <li class="list-group-item">Build custom mixed lists (movies and TV)</li>
+                        <li class="list-group-item">Take part in movie and TV discussions</li>
+                        <li class="list-group-item">Contribute to, and improve the information in our database</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <!-- form sign up -->
+                <h2>Sign up for an account</h2>
+                <p>
+                    Signing up for an account is free and easy. Fill out the form below to get started. JavaScript is required to to continue.
+                </p>
+
+                <form action="">
+                    <div class="mb-3">
+                        <label for="" class="form-label">Username</label>
+                        <input type="text" class="form-control border-primary" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="" class="form-label">Password (4 characters minimum)</label>
+                        <input type="text" class="form-control border-primary" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="" class="form-label">Password Confirm</label>
+                        <input type="text" class="form-control border-primary" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="" class="form-label">Email</label>
+                        <input type="text" class="form-control border-primary" />
+                    </div>
+
+                    <button class="btn btn-primary">Sign Up</button>
+                    <button class="btn btn-default text-primary">Cancel</button>
+                </form>
+            </div>
+        </div>
+        <!-- akhir sign up-->
+
+        <!--Awal Footer-->
+        <div class="row bg-primary mt-3">
+            <div class="col-lg-4">
+                <img src="img/footer.svg" alt="" class="d-block w-100">
+            </div>
+            <div class="col-lg-2">
+                <h2>THE BASICS</h2>
+                <a href="#" class="text-white">About TMDB</a> <hr>
+                <a href="#" class="text-white">Contact Us</a> <hr>
+                <a href="#" class="text-white">Support Forums</a> <hr>
+                <a href="#" class="text-white">API</a> <hr>
+                <a href="#" class="text-white">System Status</a> <hr>
+
+            </div>
+
+            <div class="col-lg-2">
+                <h2>GET INVOLVED</h2>
+                <a href="#" class="text-white">Contribution Bible</a> <hr>
+                <a href="#" class="text-white">Add New Movie</a> <hr>
+                <a href="#" class="text-white">Add New TV Show</a> <hr>
+            </div>
+
+            <div class="col-lg-2">
+                <h2>COMMUNITY</h2>
+                <a href="#" class="text-white">Guidelines</a> <hr>
+                <a href="#" class="text-white">Discussions</a> <hr>
+                <a href="#" class="text-white">Leaderboard</a> <hr>
+            </div>
+
+            <div class="col-lg-2">
+                <h2>LEGAL</h2>
+                <a href="#" class="text-white">Terms of Use</a> <hr>
+                <a href="#" class="text-white">API Terms of Use</a> <hr>
+                <a href="#" class="text-white">Privacy Policy</a> <hr>
+                <a href="#" class="text-white">DMCA Policy</a> <hr>
+            </div>
+        </div>
+
+        <!--Akhir Footer-->
     </div>
     </div>
 </body>
